@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Topics | Peer Mentor Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">PeerMentor</div>
+    <div>
+      <button class="glow-btn" onclick="window.location.href='home.html'">Home</button>
+      <button class="glow-btn" onclick="window.location.href='mentors.html'">Mentors</button>
+      <button class="glow-btn" onclick="window.location.href='topics.html'">Topics</button>
+      <button class="glow-btn" onclick="window.location.href='resources.html'">Resources</button>
+      <button class="glow-btn" onclick="logoutUser()">Logout</button>
+    </div>
+  </div>
+
+  <section class="hero fade-up">
+    <h1>🎯 Explore Learning Topics</h1>
+    <p>Pick your area and start learning with free roadmaps and materials!</p>
+  </section>
+
+  <section class="cards-section fade-up">
+    <div class="card">
+      <h3>Frontend Development</h3>
+      <button class="glow-btn" onclick="window.open('https://roadmap.sh/frontend')">View Roadmap</button>
+    </div>
+
+    <div class="card">
+      <h3>Backend Development</h3>
+      <button class="glow-btn" onclick="window.open('https://roadmap.sh/backend')">View Roadmap</button>
+    </div>
+
+    <div class="card">
+      <h3>DevOps</h3>
+      <button class="glow-btn" onclick="window.open('https://roadmap.sh/devops')">View Roadmap</button>
+    </div>
+  </section>
+
+  <footer>© 2025 Peer Mentor Portal | Built to Empower Learners 💙</footer>
+</body>
+</html>

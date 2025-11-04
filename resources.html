@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resources | Peer Mentor Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">PeerMentor</div>
+    <div>
+      <button class="glow-btn" onclick="window.location.href='home.html'">Home</button>
+      <button class="glow-btn" onclick="window.location.href='mentors.html'">Mentors</button>
+      <button class="glow-btn" onclick="window.location.href='topics.html'">Topics</button>
+      <button class="glow-btn" onclick="window.location.href='resources.html'">Resources</button>
+      <button class="glow-btn" onclick="logoutUser()">Logout</button>
+    </div>
+  </div>
+
+  <section class="hero fade-up">
+    <h1>📘 Study Resources</h1>
+    <p>Explore best resources to strengthen your learning journey!</p>
+  </section>
+
+  <section class="cards-section fade-up">
+    <div class="card">
+      <h3>Free Coding Practice</h3>
+      <button class="glow-btn" onclick="window.open('https://leetcode.com')">LeetCode</button>
+      <button class="glow-btn" onclick="window.open('https://www.hackerrank.com')">HackerRank</button>
+    </div>
+
+    <div class="card">
+      <h3>Documentation & Guides</h3>
+      <button class="glow-btn" onclick="window.open('https://developer.mozilla.org')">MDN Web Docs</button>
+      <button class="glow-btn" onclick="window.open('https://docs.python.org')">Python Docs</button>
+    </div>
+
+    <div class="card">
+      <h3>Free Learning Platforms</h3>
+      <button class="glow-btn" onclick="window.open('https://www.freecodecamp.org')">FreeCodeCamp</button>
+      <button class="glow-btn" onclick="window.open('https://www.geeksforgeeks.org')">GeeksforGeeks</button>
+    </div>
+  </section>
+
+  <footer>© 2025 Peer Mentor Portal | Curated Resources for Success 🚀</footer>
+</body>
+</html>

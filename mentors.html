@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mentors | Peer Mentor Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">PeerMentor</div>
+    <div>
+      <button class="glow-btn" onclick="window.location.href='home.html'">Home</button>
+      <button class="glow-btn" onclick="window.location.href='mentors.html'">Mentors</button>
+      <button class="glow-btn" onclick="window.location.href='topics.html'">Topics</button>
+      <button class="glow-btn" onclick="window.location.href='resources.html'">Resources</button>
+      <button class="glow-btn" onclick="logoutUser()">Logout</button>
+    </div>
+  </div>
+
+  <section class="hero fade-up">
+    <h1>👩‍🏫 Meet Our Expert Mentors</h1>
+    <p>Choose your interest area and explore mentor insights with detailed roadmaps.</p>
+  </section>
+
+  <section class="cards-section fade-up">
+    <div class="card">
+      <h3>Web Development</h3>
+      <p>Build websites and web apps with expert guidance on HTML, CSS, JS & React.</p>
+      <button class="glow-btn" onclick="showMentorInfo('Riya')">Explore Roadmap</button>
+    </div>
+
+    <div class="card">
+      <h3>Java & DSA</h3>
+      <p>Master programming logic and algorithms with a clear learning journey.</p>
+      <button class="glow-btn" onclick="showMentorInfo('Arjun')">Explore Roadmap</button>
+    </div>
+
+    <div class="card">
+      <h3>Machine Learning</h3>
+      <p>Dive into ML, Python, and AI with hands-on projects and mentor sessions.</p>
+      <button class="glow-btn" onclick="showMentorInfo('Sneha')">Explore Roadmap</button>
+    </div>
+  </section>
+
+  <div id="mentor-info" class="container fade-up"></div>
+
+  <footer>© 2025 Peer Mentor Portal | Learn • Connect • Grow 🚀</footer>
+</body>
+</html>
